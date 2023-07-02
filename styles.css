@@ -44,7 +44,13 @@ ul {
     display: flex;
 }
 
-.navbar ul li {
+.navbar ul a{
     margin-left: 18px;
     color: #e5e7eb;
+    text-decoration: none;
+}
+
+
+.navbar ul a:hover{
+    color: #ccced1;
 }
