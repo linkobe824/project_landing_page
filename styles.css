@@ -44,7 +44,15 @@ ul {
     display: flex;
 }
 
-.navbar ul li {
-    margin-left: 18px;
+.navbar a {
     color: #e5e7eb;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #a9abb1;
+}
+
+.navbar ul li {
+    margin-left: 18px; 
 }
