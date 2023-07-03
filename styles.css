@@ -157,7 +157,21 @@ ul {
     text-align: center;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    color: #1f2937;
+    padding: 80px 60px;
+}
 
+.quote .quote-text{
+    font-size: 36px;
+    font-style: italic;
+}
 
+.quote .quote-author{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
 
 
