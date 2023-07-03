@@ -58,7 +58,7 @@ ul {
 }
 
 .header {
-    height: 315px;
+    height: 350px;
     /* border: red solid; */
     padding: 60px 0;
 }
@@ -68,6 +68,7 @@ ul {
     /* border: red solid; */
     height: 100%;
     justify-content: space-between;
+
 }
 
 .header .left {
@@ -82,7 +83,7 @@ ul {
 }
 
 .header .left h1 {
-    width: 250px;
+    font-size: 48px;
 }
 
 .header .img {
@@ -91,7 +92,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex: 1;
-    background-color: #a9abb1;
+    background-color: #6D747D;
 }
 
 .button {
@@ -105,6 +106,55 @@ ul {
 
 .button:hover {
     background-color: #2f6cce;
+}
+
+.boxes {
+    background: white;
+    height: 420px;
+    color: #1f2937; 
+}
+
+.boxes .box {
+    border:  3px solid #3882f5;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.boxes .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    /* border: solid red; */
+    height: 100%;
+}
+
+.boxes h2 {
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.boxes .boxes-container {
+    display: flex;
+    /* border: solid red; */
+    justify-content: space-between;
+    width: 780px;
+    margin-top: 40px;
+}
+
+.boxes .boxes-container .box-and-text-container {
+    /* border: red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.boxes p {
+    text-align: center;
 }
 
 
